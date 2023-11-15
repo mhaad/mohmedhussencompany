@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Hussen</title>
+  <!-- font Awsem -->
+  <link rel="stylesheet" href="../css/all.min.css">
+  <!-- Fremwerk Bootstrap -->
+  <link rel="stylesheet" href="../css/bootstrap.rtl.min.css">
+  </link>
+  <!-- Style -->
+  <link rel="stylesheet" href="../css/style.css">
+  </link>
+</head>
+
+<body>
+  <!-- Loading -->
+  <div class="loading position-fixed w-100 h-100 top-0 bg-dark text-white">
+    <div class="position-absolute mt-5 start-50 translate-middle row">
+      <div class="col-1 m-1"></div>
+      <div class="col-1 m-1"></div>
+      <div class="col-1 m-1"></div>
+      <div class="col-1 m-1"></div>
+    </div>
+  </div>
+  <!-- Scrool -->
+  <div class="scrool-top position-fixed m-1 text-white bottom-0 end-0 me-5 mb-5">
+    <i class="fas fa-arrow-up fs-5 position-absolute top-50 start-50 translate-middle"></i>
+  </div>
+  <!-- Colors -->
+  <div id="colors" class="colors-setting position-fixed m-1">
+    <div class=" text-white w-100 h-100 position-relative overflow-hidden ">
+      <i class="fas fa-cog position-absolute fs-5 "></i>
+    </div>
+    <ul id="list-colors" class="list-unstyled w-100 ">
+      <li class=" position-absolute top-0 top-50 start-50 translate-middle" data-color="#dc3545"></li>
+      <li class=" position-absolute top-0 top-50 start-50 translate-middle" data-color="#6f42c1"></li>
+      <li class=" position-absolute top-0 top-50 start-50 translate-middle" data-color="#0d6efd"></li>
+      <li class=" position-absolute top-0 top-50 start-50 translate-middle" data-color="#ffc107"></li>
+    </ul>
+    <ul id="list-languages" class="list-unstyled w-100">
+      <li class=" position-absolute top-0 top-50 start-50 translate-middle text-white text-center active">AR</li>
+      <li class=" position-absolute top-0 top-50 start-50 translate-middle text-white text-center"
+        onclick="location.href='../home.html'">EN
+      </li>
+    </ul>
+  </div>
+  <!-- Start Nav -->
+  <nav class="navbar navbar-expand-lg bg-dark text-white position-fixed top-0 w-100 p-0">
+    <div class="container h-100 position-relative">
+      <a class="navbar-brand text-white fs-3 ms-3" href="#">محمد<span> حسين</span></a>
+      <button class="navbar-toggler d-block d-lg-none shadow-none" type="button">
+        <span class="w-100 bg-light d-block"></span>
+        <span class="w-100 bg-light d-block mt-1 mb-1"></span>
+        <span class="w-100 bg-light d-block"></span>
+      </button>
+      <div class="collapse d-none d-lg-flex">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-dark" id="first">
+          <li class="nav-item">
+            <a class="nav-link text-white-50 pt-3 pb-3 ps-4 pe-4 active" href="homertl.html">الرئيسية</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50 pt-3 pb-3 ps-4 pe-4" href="aboutrtl.html">عنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50 pt-3 pb-3 ps-4 pe-4" href="faqrtl.html">الأسئلة الشائعة
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50 pt-3 pb-3 ps-4 pe-4" href="#footer">معلومات</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white-50 dropdown-toggle pt-3 pb-3 ps-4 pe-4" href="#">
+              المزيد
+            </a>
+            <ul class="dropdown-menu bg-dark mt-2" id="second">
+              <li><a class="dropdown-item text-white-50" href="#price_table">سعرنا</a></li>
+              <li><a class="dropdown-item text-white-50 " href="#team">فريقنا</a></li>
+              <li><a class="dropdown-item text-white-50" href="#subscripe">سجل الان</a></li>
+              <li><a class="dropdown-item text-white-50" href="#statistics">إحصائيات</a></li>
+              <li><a class="dropdown-item text-white-50" href="#skills">مهارات</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item text-white-50" href="#contact">تواصل معنا</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Nav -->
+  <!-- Start slide image-->
+  <div class="carousel slide h-0">
+    <div id="buttonSlide" class="carousel-indicators">
+      <button type="button" class="active ms-1 border-0" aria-label="Slide-0"></button>
+      <button type="button" class="ms-1 border-0" aria-label="Slide-1"></button>
+      <button type="button" class="ms-1 border-0" aria-label="Slide-2"></button>
+      <button type="button" class="ms-1 border-0" aria-label="Slide-3"></button>
+      <button type="button" class="ms-1 border-0" aria-label="Slide-4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item position-relative active" aria-label="Slide-0">
+        <img src="../image/IMG_3941.jpg" width="100%" height="500px" class="d-block" alt="slide-img">
+        <div class="carousel-caption w-75 p-5 position-aubsolute top-50 start-50 translate-middle d-none d-md-block">
+          <h3>تصميم مواقع ويب مبتكرة وجذابة</h3>
+          <p>
+            نحن ملتزمون بتصميم مواقع ويب فريدة ومبتكرة تجذب الزوار وتعكس هوية عملك بشكل استثنائي.
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item position-relative" aria-label="Slide-1">
+        <img src="../image/IMG_3942.jpg" width="100%" height="500px" class="d-block" alt="slide-img">
+        <div class="carousel-caption w-75 p-5 position-aubsolute top-50 start-50 translate-middle d-none d-md-block">
+          <h3>تطوير مواقع ويب متجاوبةl</h3>
+          <p>نقدم تصميمات وتطويرًا يتوافقان مع مختلف الأجهزة والشاشات، مما يضمن تجربة مستخدم سلسة ومريحة على الهواتف
+            الذكية والأجهزة اللوحية وأجهزة الكمبيوتر.</p>
+        </div>
+      </div>
+      <div class="carousel-item position-relative" aria-label="Slide-2">
+        <img src="../image/IMG_3943.jpg" width="100%" height="500px" class="d-block" alt="slide-img">
+        <div class="carousel-caption w-75 p-5 position-aubsolute top-50 start-50 translate-middle d-none d-md-block">
+          <h3>تحسين تجربة المستخدم</h3>
+          <p>نهتم بتحسين تجربة مستخدم الموقع من خلال تصميم واجهة مستخدم سهلة الاستخدام وملاحة فعالة وتجربة مريحة
+            للمستخدم.</p>
+        </div>
+      </div>
+      <div class="carousel-item position-relative" aria-label="Slide-3">
+        <img src="../image/IMG_3945.jpg" width="100%" height="500px" class="d-block" alt="slide-img">
+        <div class="carousel-caption w-75 p-5 position-aubsolute top-50 start-50 translate-middle d-none d-md-block">
+          <h3>تحسين محركات البحث SEO</h3>
+          <p> نقوم بتحسين موقعك ليكون مرئيًا في نتائج محركات البحث وزيادة الزيارات العضوية وتوليد حركة مرور مستهدفة
+            لموقعك.</p>
+        </div>
+      </div>
+      <div class="carousel-item position-relative" aria-label="Slide-4">
+        <img src="../image/IMG_3944.jpg" width="100%" height="500px" class="d-block" alt="slide-img">
+        <div class="carousel-caption w-75 p-5 position-aubsolute top-50 start-50 translate-middle d-none d-md-block">
+          <h3>دعم فني وصيانة مستمرة</h3>
+          <p>نقدم دعمًا فنيًا متواصلًا وصيانة لموقعك لضمان استمرارية عمله بشكل سلس وخالٍ من المشاكل التقنية.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev prev" type="button" data-bs-target="#carouselExampleCaptions"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next next" type="button" data-bs-target="#carouselExampleCaptions"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- End slide image-->
+  <!-- Start About Us -->
+  <section class="about-us pt-5 pb-5 ">
+    <div class="container text-center">
+      <h3 class="mb-3"> نموذج <span>محمد حسين</span></h3>
+      <p class="">
+        نحن سعداء للغاية بإطلاق نموذج محمد حسين، وهو أحدث إضافة إلى مجموعة قوالبنا. تم تصميم هذا النموذج باستخدام
+        <strong> Bootstrap 5.3.2</strong> ، وهو أحدث إصدار من إطار عمل <strong>Bootstrap</strong> الشهير. يتميز هذا
+        النموذج بتصميمه العصري ووظائفه القوية،
+        وهو خيار مثالي لأي مشروع جديد.
+      </p>
+    </div>
+  </section>
+  <!-- End About Us -->
+  <!-- Start Features -->
+  <section class="features text-center pt-5 pb-5">
+    <div class="container">
+      <h2 class="mb-5 fs-1 ani">ميزاتنا</h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-3 p-2 ani">
+          <i class="fas fa-laptop-code fs-1"></i>
+          <h5 class="mt-2 mb-2"> الاستجابة الكاملة <span>100%</span></h5>
+          <p>
+            يمكنني تصميم وتطوير مواقع وتطبيقات ويب متجاوبة 100% ، أي أنها تبدو رائعة على جميع الأجهزة، من الهواتف الذكية
+            الصغيرة إلى أجهزة الكمبيوتر المكتبية الكبيرة.
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-3 p-2 ani">
+          <i class="as fas fa-code fs-1"></i>
+          <h5 class="mt-2 mb-2">توافق شاشات</h5>
+          <p>
+            يمكنني تصميم وتطوير مواقع وتطبيقات ويب متوافقة مع شاشات أي أنها تبدو رائعة على التي تتميز بوضوح ودقة أعلى من
+            الشاشات العادية.
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-3 p-2 ani">
+          <i class="fas fa-code-branch fs-1"></i>
+          <h5 class="mt-2 mb-2">تصميم رائعة</h5>
+          <p> تصميم وتطوير مواقع وتطبيقات ويب تتميز بعرض رائع يجذب انتباه المستخدمين ويجعلهم يرغبون في استخدامها.
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-3 p-2 ani">
+          <i class="fas fa-folder-open fs-1"></i>
+          <h5 class="mt-2 mb-2">التوثيق الجيد</h5>
+          <p>
+            يمكنني تصميم وتطوير مواقع وتطبيقات ويب موثّقة جيدًا، أي أنها تتضمن وثائق تشرح كيفية استخدامها وتطويرها.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Features -->
+  <!-- Start Testimonials -->
+  <section class="testimonials text-center pt-5 pb-5">
+    <div class="container">
+      <h2 class="fs-1 mb-4 ani">ما قاله عملأنا عنا</h2>
+      <div class="text-slide carousel ani">
+        <div id="textSlide" class="carousel-indicators top-100 ">
+          <button type="button" class="active ms-1 border-0" aria-label="slideText-0"></button>
+          <button type="button" class="ms-1 border-0" aria-label="slideText-1"></button>
+          <button type="button" class="ms-1 border-0" aria-label="slideText-2"></button>
+        </div>
+        <div class="carousel-inner ">
+          <div class="carousel-item position-relative mb-2 active" aria-label="slideText-0">
+            <p>"أنا مسرور جدًا بالموقع الذي قام فريق العمل ببنائه لشركتي. تصميم مبتكر وواجهة مستخدم سهلة الاستخدام. أوصي
+              بهم بشدة!"</p>
+            <span>اسامه أحمد</span>
+          </div>
+          <div class="carousel-item position-relative mb-2" aria-label="slideText-1">
+            <p>"تعامل رائع واحترافية عالية. استمعوا بعناية لمتطلباتنا وقدموا حلاً فعالًا ومبتكرًا. فريق موهوب ومتعاون!"
+            </p>
+            <span>ابرهيم حسين</span>
+          </div>
+          <div class="carousel-item position-relative mb-2" aria-label="slideText-2">
+            <p>"لا يمكنني أن أشكر فريق العمل بما فيه الكفاية على تصميم الموقع الرائع الخاص بنا. كانوا متعاونين وسريعين
+              في تنفيذ المشروع بشكل استثنائي."</p>
+            <span>كريم محمد</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Testimonials -->
+  <!-- Start Price Table -->
+  <section id="price_table" class="price_table pt-5 pb-5 text-center">
+    <div class="container">
+      <h2 class="mb-5 fs-1 ani">أسعارنا المذهلة</h2>
+      <div class="box row overflow-hidden">
+        <div class="col-md-6 col-lg-3 up-done ani">
+          <div class="m-1 p-3 pt-5 pb-5 rounded shadow">
+            <h2 class=" mb-4 ">الاستضافة</h2>
+            <span
+              class="fs-1 fw-bold d-flex justify-content-center align-items-center border rounded-circle mt-2 mb-2 m-auto">
+              $40</span>
+            <ul class="p-0 list-unstyled">
+              <li class="fs-5 p-2"><strong>المساحة: </strong> 30 جيجابايت</li>
+              <li class="fs-5 p-2"><strong>البريد الإلكتروني:</strong> 20</li>
+              <li class="fs-5 p-2"><strong>عناوين:</strong> 2 IP</li>
+              <li class="fs-5 p-2"><strong>قواعد البيانات:</strong> 10</li>
+              <li class="fs-5 p-2"><strong>حسابات:</strong> 5</li>
+            </ul>
+            <button class="btn text-white btu-color shadow-none">اطلب الآن</button>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 up-done ani">
+          <div class="m-1 p-3 pt-5 pb-5 rounded shadow">
+            <h2 class=" mb-4 ">الاستضافة</h2>
+            <span
+              class="fs-1 fw-bold d-flex justify-content-center align-items-center border rounded-circle mt-2 mb-2 m-auto">$40</span>
+            <ul class="p-0 list-unstyled">
+              <li class="fs-5 p-2"><strong>المساحة: </strong> 30 جيجابايت</li>
+              <li class="fs-5 p-2"><strong>البريد الإلكتروني:</strong> 20</li>
+              <li class="fs-5 p-2"><strong>عناوين:</strong> 2 IP</li>
+              <li class="fs-5 p-2"><strong>قواعد البيانات:</strong> 10</li>
+              <li class="fs-5 p-2"><strong>حسابات:</strong> 5</li>
+            </ul>
+            <button class="btn text-white btu-color shadow-none">اطلب الآن</button>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 up-done ani">
+          <div class="m-1 p-3 pt-5 pb-5 rounded shadow">
+            <h2 class=" mb-4 ">الاستضافة</h2>
+            <span
+              class="fs-1 fw-bold d-flex justify-content-center align-items-center border rounded-circle mt-2 mb-2 m-auto">$40</span>
+            <ul class="p-0 list-unstyled">
+              <li class="fs-5 p-2"><strong>المساحة: </strong> 30 جيجابايت</li>
+              <li class="fs-5 p-2"><strong>البريد الإلكتروني:</strong> 20</li>
+              <li class="fs-5 p-2"><strong>عناوين:</strong> 2 IP</li>
+              <li class="fs-5 p-2"><strong>قواعد البيانات:</strong> 10</li>
+              <li class="fs-5 p-2"><strong>حسابات:</strong> 5</li>
+            </ul>
+            <button class="btn text-white btu-color shadow-none">اطلب الآن</button>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 up-done ani">
+          <div class="m-1 p-3 pt-5 pb-5 rounded shadow">
+            <h2 class=" mb-4 ">الاستضافة</h2>
+            <span
+              class="fs-1 fw-bold d-flex justify-content-center align-items-center border rounded-circle mt-2 mb-2 m-auto">$40</span>
+            <ul class="p-0 list-unstyled">
+              <li class="fs-5 p-2"><strong>المساحة: </strong> 30 جيجابايت</li>
+              <li class="fs-5 p-2"><strong>البريد الإلكتروني:</strong> 20</li>
+              <li class="fs-5 p-2"><strong>عناوين:</strong> 2 IP</li>
+              <li class="fs-5 p-2"><strong>قواعد البيانات:</strong> 10</li>
+              <li class="fs-5 p-2"><strong>حسابات:</strong> 5</li>
+            </ul>
+            <button class="btn text-white btu-color shadow-none">اطلب الآن</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Price Table -->
+  <!-- Start Our Team -->
+  <section id="team" class="our-team pb-5 pt-5 text-white bg-dark text-center">
+    <div class="container ">
+      <h2 class="z-3 ani">تعرف على فريقنا الرائع</h2>
+      <div class="row overflow-hidden">
+        <div class="col-md-6 col-lg-3 p-2 ">
+          <div class="m-1 box  up-done ani">
+            <img class="rounded-circle" src="../image/chris-min.jpg" alt="">
+            <h3 class="mt-2 mb-2">جون سميث</h3>
+            <p>مطور ويب محترف ومبدع. خبرة واسعة في تطوير تطبيقات الويب وتصميم واجهة المستخدم. يجلب الإبداع والحلول
+              الفعالة لمشاريعنا.</p>
+            <nav>
+              <i class="fab fa-facebook-f m-1 "></i>
+              <i class="fab fa-youtube  m-1 "></i>
+              <i class="fab fa-google-plus-g  m-1 "></i>
+              <i class="fab fa-twitter  m-1 "></i>
+            </nav>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 p-2">
+          <div class="m-1 box  up-done ani">
+            <img class="rounded-circle" src="../image/steve-min.jpg" alt="">
+            <h3 class="mt-2 mb-2">مايكل وليامز</h3>
+            <p>محلل بيانات ذكي ومتخصص في الذكاء الاصطناعي. يتمتع بقدرة استثنائية على تحليل البيانات وتوفير رؤى قيمة.
+              يساعدنا على اتخاذ القرارات الاستراتيجية الصحيحة.</p>
+            <nav>
+              <i class="fab fa-facebook-f m-1 "></i>
+              <i class="fab fa-youtube  m-1 "></i>
+              <i class="fab fa-google-plus-g  m-1 "></i>
+              <i class="fab fa-twitter  m-1 "></i>
+            </nav>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 p-2">
+          <div class="m-1 box  up-done ani">
+            <img class="rounded-circle" src="../image/leah-min.jpg" alt="">
+            <h3 class="mt-2 mb-2"> سارة جونز</h3>
+            <p>مصممة جرافيك موهوبة ومتحمسة. تتمتع بمهارات رائعة في تصميم الشعارات والهوية البصرية وتجربة المستخدم. تعمل
+              على إضفاء الجمال والإبداع على مشاريعنا.</p>
+            <nav>
+              <i class="fab fa-facebook-f m-1 "></i>
+              <i class="fab fa-youtube  m-1 "></i>
+              <i class="fab fa-google-plus-g  m-1 "></i>
+              <i class="fab fa-twitter  m-1 "></i>
+            </nav>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 p-2">
+          <div class="m-1 box up-done ani">
+            <img class="rounded-circle" src="../image/marissa-min.jpg" alt="">
+            <h3 class="mt-2 mb-2">إيمي هاريسون</h3>
+            <p>مديرة مشروع متمرسة ومنظمة. تتولى إدارة المشاريع بكفاءة عالية وتضمن تنفيذها في الموعد المحدد وفقًا
+              للمتطلبات. تضمن أن يكون لدينا تجربة تعاون سلسة مع عملائنا.</p>
+            <nav>
+              <i class="fab fa-facebook-f m-1 "></i>
+              <i class="fab fa-youtube  m-1 "></i>
+              <i class="fab fa-google-plus-g  m-1 "></i>
+              <i class="fab fa-twitter  m-1 "></i>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Our Team -->
+  <!-- Start Subscripe -->
+  <section id="subscripe" class="subscripe text-center pb-5 pt-5">
+    <div class="container  overflow-hidden">
+      <h2 class="fs-1 ani">حافظ على اتصال</h2>
+      <p class="mt-3 mb-3 up-done up-done ani">اشترك في النشرة الإخبارية
+        لا تقلق بشأن البريد العشوائي، نحن نكرهه أيضًا.</p>
+      <form class="w-50 row m-auto justify-content-center overflow-hidden">
+        <input type="text" class="border border-end-0 p-1 ps-2 col-md-7 up-done ani"
+          placeholder="اكتب بريدك الإلكتروني">
+        <input type="submit" value="سجل الان"
+          class="border btu-color border-start-0 p-1 ps-2 pe-2 text-white col-md-3 up-done ani">
+      </form>
+    </div>
+  </section>
+  <!-- End Subscripe -->
+  <!-- Start Statistics -->
+  <section id="statistics" class="statistics text-center pt-5 pb-5 bg-dark text-white-50 ani">
+    <div class="container">
+      <h2 class="fs-1 mb-5 ani">إحصائياتنا الرئيسية</h2>
+      <div class="row overflow-hidden">
+        <div class=" col-sm-6 col-md-6 col-lg-3 up-done ani">
+          <div class="box m-3">
+            <i class="fas fa-users fs-1"></i>
+            <strong class="d-block fs-2 mt-2 mb-2">9,550</strong>
+            <p>المستخدمون الراضون</p>
+          </div>
+        </div>
+        <div class=" col-sm-6 col-md-6 col-lg-3 up-done ani">
+          <div class="box m-3">
+            <i class="fas fa-comments fs-1"></i>
+            <strong class="d-block fs-2 mt-2 mb-2">25,600</strong>
+            <p>التعليقات المنشورة</p>
+          </div>
+        </div>
+        <div class=" col-sm-6 col-md-6 col-lg-3 up-done ani">
+          <div class="box m-3">
+            <i class="fas fa-tasks fs-1"></i>
+            <strong class="d-block fs-2 mt-2 mb-2">95,350</strong>
+            <p>التذاكر المؤرشفة</p>
+          </div>
+        </div>
+        <div class=" col-sm-6 col-md-6 col-lg-3 opacity-5 up-done ani">
+          <div class="box m-3">
+            <i class="fas fa-project-diagram fs-1"></i>
+            <strong class="d-block fs-2 mt-2 mb-2">3,260</strong>
+            <p>المشاريع المنجزة</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Statistics -->
+  <!-- Start Skills -->
+  <section id="skills" class="skills pb-5 pt-5">
+    <div class="container">
+      <h2 class="fs-1 mb-5 text-center ani">مهاراتنا</h2>
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md-6 text-white">
+          <div class="box bg-light rounded mb-2 overflow-hidden"><span
+              class="progress-bar-striped d-block p-1 ps-3 bg-primary ani" data-width="80%">Html5 /
+              css</span></div>
+          <div class="box bg-light rounded mb-2 overflow-hidden"><span
+              class="progress-bar-striped d-block p-1 ps-3 bg-warning ani" data-width="60%">Javascript /
+              Vue.js</span></div>
+          <div class="box bg-light rounded mb-2 overflow-hidden "><span
+              class="progress-bar-striped d-block p-1 ps-3 bg-info ani" data-width="75%">Wordpress</span>
+          </div>
+          <div class="box bg-light rounded mb-2 overflow-hidden "><span
+              class="progress-bar-striped d-block p-1 ps-3 bg-danger ani" data-width="50%">PHP / MySGL</span>
+          </div>
+        </div>
+        <div class="col-md-5 mt-3 mt-md-0 overflow-hidden">
+          <h3 class="ani">عن الفريق</h3>
+          <p class="ani">نحن نعمل مع العملاء لتحقيق أهدافهم التكنولوجية من خلال تقديم حلول مبتكرة ومخصصة. نحن نقدم الدعم
+            الفني المستمر لضمان استقرار ونجاح تطبيقاتهم ومواقعهم الإلكترونية.</p>
+          <button class="btn btu-color text-white shadow-none ani">تحدث مع الخبراء</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Skills -->
+  <!-- Start Contact Us -->
+  <section id="contact" class="contact-us pb-5 pt-5 bg-dark text-light ani">
+    <div class="container overflow-hidden">
+      <div class="text-center mb-4 ani">
+        <i class="fas fa-users fs-1 mb-2 d-block"></i>
+        <h2 class="fs-2">أخبرنا بما تشعر</h2>
+        <p>لا تتردد في الاتصال بنا في أي وقت</p>
+      </div>
+      <form class="row">
+        <div class="col-md-6 overflow-hidden">
+          <input class="d-block p-2 ps-3 w-100 bg-dark border mb-2 rounded text-white ani" type="text" name="User"
+            placeholder="اسم المستخدم">
+          <input class="d-block p-2 ps-3 w-100 bg-dark border mb-2 rounded text-white ani" type="email" name="Email"
+            placeholder="بريد إلكتروني">
+          <input class="d-block p-2 ps-3 w-100 bg-dark border rounded text-white ani" type="number" name="Number"
+            placeholder="اتصل بالهاتف">
+        </div>
+        <div class="col-md-6 overflow-hidden">
+          <textarea class="d-block p-2 ps-3 w-100 bg-dark border mb-1 rounded text-white mt-2 mt-md-0 mb-2 ani "
+            name="message" placeholder="رسالتك"></textarea>
+          <input class="btn w-100 btu-color text-white p-2 ani" type="submit" value="اتصل بنا">
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- End Contact Us -->
+  <!-- Start Our Clients -->
+  <section class="our-clients pt-4 pb-4">
+    <div class="container">
+      <ul class="row list-unstyled text-center overflow-hidden">
+        <li class="col-sm-4 col-md-2 ani"><img class="m-3" src="../image/bbc-min.png" alt="clients"></li>
+        <li class="col-sm-4 col-md-2 ani"><img class="m-3" src="../image/wsj-min.png" alt="clients"></li>
+        <li class="col-sm-4 col-md-2 ani"><img class="m-3" src="../image/techradar-min.png" alt="clients"></li>
+        <li class="col-sm-4 col-md-2 ani"><img class="m-3" src="../image/cnn-min.png" alt="clients"></li>
+        <li class="col-sm-4 col-md-2 ani"><img class="m-3" src="../image/forbes-min.png" alt="clients"></li>
+        <li class="col-sm-4 col-md-2 ani"><img class="m-3" src="../image/cnn-min.png" alt="clients"></li>
+      </ul>
+    </div>
+  </section>
+  <!-- End Our Clients -->
+  <!-- Start Footer -->
+  <footer id="footer" class="pt-4 bg-dark">
+    <div class="container">
+      <div class="row overflow-hidden">
+        <div class="col-md-6 col-lg-4 mb-4 mt-2 mb-4  ani">
+          <h3>خريطة الموقع</h3>
+          <div class="row">
+            <ul class="list-unstyled text-white-50 col-sm-4">
+              <li class="mb-2">الصفحة الرئيسية</li>
+              <li class="mb-2">الكود</li>
+              <li class="mb-2">الحلول</li>
+            </ul>
+            <ul class="list-unstyled text-white-50 col-sm-4">
+              <li class="mb-2">حول</li>
+              <li class="mb-2">التصميم</li>
+              <li class="mb-2">خريطة الموقع</li>
+            </ul>
+            <ul class="list-unstyled text-white-50 col-sm-4">
+              <li class="mb-2">الشركة</li>
+              <li class="mb-2">المضيف</li>
+              <li class="mb-2">اتصل بنا</li>
+            </ul>
+          </div>
+          <div>
+            <img class="opacity-50" src="../image/facebook-min.png" alt="facebook">
+            <img class="opacity-50" src="../image/twitter-min.png" alt="twitter">
+            <img class="opacity-50" src="../image/gplus-min.png" alt="gplus">
+            <img class="opacity-50" src="../image/email-min.png" alt="email">
+            <img class="opacity-50" src="../image/rss-min.png" alt="rss">
+            <img class="opacity-50" src="../image/pinterest-min.png" alt="pinterest">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 text-white mb-4 ani">
+          <h3>أحدث المقالات</h3>
+          <div class="row align-items-center justify-content-center mb-2">
+            <img class="col-3 mb-md-4" src="../image/one.png" alt="img-footer">
+            <div class="col-9">
+              <h5>برمجة</h5>
+              <p>نحن نقدم خدمات برمجة مبتكرة ومخصصة لتلبية احتياجات العملاء. نحن نكتب شفرات برمجية قوية وفعالة لتطوير
+                تطبيقات ومواقع ويب متقدمة..</p>
+            </div>
+          </div>
+          <div class="row align-items-center justify-content-center mb-2">
+            <img class="col-3 mb-md-4" src="../image/man-1.png" alt="img-footer">
+            <div class="col-9">
+              <h4>كود</h4>
+              <p>نحن نتخصص في كتابة الشفرات البرمجية المتقدمة لتنفيذ وظائف محددة وتطوير تطبيقات مبتكرة. نحن نلتزم
+                بمعايير البرمجة الأفضل ونضمن جودة الكود المنتج.
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center justify-content-center">
+            <img class="col-3 mb-md-4" src="../image/one.png" alt="img-footer">
+            <div class="col-9">
+              <h4>تصميم ويب</h4>
+              <p>نحن نقدم خدمات تصميم واجهة مستخدم ومواقع ويب جذابة وسهلة الاستخدام. نحن نهتم بتحسين تجربة المستخدم
+                وإنشاء مواقع ويب جذابة تعكس هوية العملاء وتلبي احتياجاتهم.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 overflow-hidden mb-3 ani">
+          <h3>أعمالنا الرائعة</h3>
+          <div class="d-flex flex-wrap  justify-content-between align-items-center">
+            <div class="col-5 w-50"><img class=" border p-0 img-fulid" width="90%" height="100px"
+                src="../image/IMG_3943.jpg" alt="img"></div>
+            <div class="col-5 w-50"><img class="border p-0 img-fulid " width="90%" height="100px"
+                src="../image/IMG_3941.jpg" alt="img"></div>
+            <div class="col-5 w-50"><img class=" border p-0 mt-2 img-fulid" width="90%" height="100px"
+                src="/image/IMG_3942.jpg" alt="img"></div>
+            <div class="col-5 w-50"><img class="border p-0 mt-2 img-fulid" width="90%" height="100px"
+                src="../image/IMG_3944.jpg" alt="img"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pt-3 pb-3 text-center text-white fs-6 bg-black opacity-50">جميع الحقوق محفوظه &copy; <span
+        id="copy-date"></span>
+      <span>محمد حسين</span>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <script src="../js/main.js"></script>
+  <script src="../js/slide.js"></script>
+</body>
+
+</html>

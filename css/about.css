@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;500;600;700;800&display=swap');
+
+:root {
+    --color--: #E41b17;
+    --Background--: #eeeeee;
+    --transition--: 0.5s;
+    --transitionExter--: 1s;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* All Page */
+.breadcrumb-color {
+    background-color: var(--Background--);
+}
+
+.breadcrumb-color li {
+    cursor: pointer;
+}
+
+.breadcrumb-color .active {
+    color: var(--color--);
+}
+
+/* Animtion */
+.text.ani {
+    transform: translateY(-100%);
+}
+
+.text.aniShow {
+    transform: translateY(0%);
+}
+
+img.ani {
+    transform: scale(0);
+}
+
+img.aniShow {
+    transform: scale(1);
+}
+
+/* Start About */
+h1 {
+    font-size: 70px;
+}
+
+@media (max-width:756px) {
+    h1 {
+        font-size: 45px;
+    }
+}
+
+.section-bg {
+    background-color: var(--Background--);
+}
+
+.section-bg button {
+    background-color: var(--color--) !important;
+}
+
+/* End About */
+/* start FAQ */
+.collaps .question-box {
+    max-width: 800px;
+}
+
+.question-box button::after {
+    font-family: FontAwesome;
+    content: "\f061";
+    font-size: 20px;
+    color: var(--color--);
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: var(--transition--) ease-in-out;
+}
+
+.question-box.active button::after {
+    transform: translateY(-50%) rotateZ(90deg);
+}
+
+.collaps .question-box p {
+    transition: var(--transition--) ease-in-out display;
+}
+
+.collaps .question-box.active p {
+    display: block !important;
+}
+
+/* End FAQ */
